@@ -78,5 +78,4 @@ bx.arrow(0-xoffset, -1, 0, 2, length_includes_head=True, head_width=0.2, head_le
 bx.arrow(2*np.pi+xoffset, 1, 0, -2, length_includes_head=True, head_width=0.2, head_length=0.1, fc='0')
 bx.axis('off')
 pl.colorbar(sc, shrink=0.9)
-pl.savefig(pdfname)
 pl.savefig(pngname, dpi=300)
